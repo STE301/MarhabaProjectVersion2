@@ -1,0 +1,25 @@
+.vol {
+    color: aliceblue;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 400;
+    background-color: #1d1919;
+    width: 65%;
+    margin-left: 10%;
+    display:block;
+    margin-left: 10cm;
+}
+.btn-primary {
+    background-color: #ec7104;
+    outline: none;
+    border: 7px;
+    box-shadow: none;
+    width:3cm;
+    margin-top:0.2cm;
+    height: 0.7cm;
+   
+}
+a{
+    text-decoration: none;
+}
+

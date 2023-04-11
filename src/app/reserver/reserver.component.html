@@ -1,0 +1,122 @@
+<app-aside-fix></app-aside-fix>
+
+<div class="vol" >
+      <label style="color:orangered;">Récapulatif du vol sélectionné</label><br>
+      <span style="color:yellowgreen;font-size:24px; ">&#9992;</span>  Num_Vol: <span style="color:orangered; "> </span>  &nbsp; &nbsp; &nbsp;   <span style="color:yellowgreen; font-size:24px;">&#9992;</span> Avion:  <span style="color:yellowgreen"></span><br>
+      <i class="fa fa-globe" style="font-size:24px; color:yellowgreen;"></i> Ville de Départ:  <span style="color:orangered;"> </span>  &nbsp; &nbsp; &nbsp;
+      <i class="fa fa-globe" style="font-size:24px; color:yellowgreen;"></i> Ville d'arrivée: <span style="color:orangered;"> </span>
+    
+    
+      <br><i class="fa fa-calendar" style="color:yellowgreen;"></i> Date et heure de départ: <span style="color:orangered;"> </span>à <span style="color:orangered;"> </span> &nbsp; &nbsp;&nbsp; 
+      <i class="fa fa-calendar" style="color:yellowgreen;"></i> Date et heure d'arrivée: <span style="color:orangered;"></span>à <span style="color:orangered;"> </span>
+</div>
+    
+    
+<br><br>
+<div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                    <h2 style="color:orange; margin-left:-20px; margin-top:0px;"><i class="fa fa-plane" style="font-size:48px;color:orange; "></i> Réservation</h2>          
+                        <form class="requires-validation" method="POST" action="">
+                            <div id="parts">
+                                <div id="part1">
+                                    <p style="color:greenyellow; font-weight:500;">Informations du Client:</p>
+                                    <div class="col-md-12">      
+                                        <p style="color:greenyellow; ">Nom:</p> 
+                                        <input class="form-control" type="text" name="nomClient" value="" style="color:black;" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p style="color:greenyellow; ">Prénom:</p> 
+                                        <input class="form-control" type="text" name="prenomClient" value="" style="color:black;" required>
+                                    </div>     
+                                    <div class="col-md-12">
+                                        <p style="color:greenyellow; ">Nationnalité:</p> 
+                                        <select class="selectpicker countrypicker"  style="color: black; width:7.8cm;">
+                                            <option>AUS</option>
+                                            <option>BE</option>
+                                            <option>BG</option>
+                                            <option>HR</option>
+                                            <option>CY</option>
+                                            <option>CZ</option>
+                                            <option>DK</option>
+                                            <option>EE</option>
+                                            <option>FR</option>
+                                            <option>GR</option>
+                                            <option>HU</option>
+                                            <option>IT</option>
+                                            <option>LV</option>
+                                            <option>MA</option>
+                                            <option>MEX</option>
+                                            <option>POR</option>
+                                            <option>SP</option>
+                                            <option>US</option>
+                                        </select>
+                                    </div>                    
+                                    <div class="col-md-12">
+                                        <p style="color:greenyellow; ">Email:</p> 
+                                        <input class="form-control" type="text" name="emailClient" placeholder="Ex: xxxx@xx.net" value="" style="color:black;" required>
+                                    </div>                   
+                                    <div class="col-md-12">
+                                        
+                                        <p style="color:greenyellow; ">Téléphone:</p>
+                                        <input class="form-control" type="text" name="telephoneClient" placeholder="Ex: +212 xx xx xx" value="" style="color:black;" required>        
+                                    </div>
+                                <br>
+                                <a (click)="onButtonClick()" style="color:greenyellow;"   id="add_passager" ><i class="fa fa-plus"></i> Ajouter un autre passager</a> <br>   
+                            </div>
+                            <div id="dynamic">
+                        <div id="part2">
+                                <p style="color:greenyellow; font-weight:500; white-space:nowrap;">Informations Passager 1:</p>
+                                <div class="col-md-12">
+                                    <p>Numéro du passeport</p>
+                                    <input class="form-control" type="text" name="pass"  style="color:black;" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Nom</p>
+                                    <input class="form-control" type="text" name="lastName"  style="color:black;" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Prénom</p>
+                                    <input class="form-control" type="text" name="firstName" style="color:black;" required>
+                                </div>  
+                                <div class="col-md-12">
+                                    <p>Adresse Email</p>
+                                    <input class="form-control" type="text" name="email" placeholder="Ex: xxxx@xx.net" style="color:black;" required>
+                                </div> 
+                                <div class="col-md-12">
+                                    <p>Numéro de téléphone</p>
+                                    <input class="form-control" type="text" name="telephone" placeholder="Ex: +212 xx xx xx" style="color:black;" required>
+                                </div>   
+                                <div class="col-md-12 mt-3">
+                                    <p style="color:white; ">Classe: </p>
+                                    <input type="radio" class="btn-check" name="classe" id="Economique" autocomplete="off" style="color:black;" value="Economique" required>
+                                    <label class="btn btn-sm btn-outline-secondary" >Economique</label>
+                                    <input type="radio" class="btn-check" name="classe" id="Premium" autocomplete="off" style="color:black;" value="Premium" required>
+                                    <label class="btn btn-sm btn-outline-secondary" >Premium</label>
+                                    <input type="radio" class="btn-check" name="classe" id="Business" autocomplete="off" style="color:black;"  value="Business" required>
+                                    <label class="btn btn-sm btn-outline-secondary" >Business</label>
+                                <!--<div class="valid-feedback mv-up">Vous avez sélectionné une classe!</div>
+                                <div class="invalid-feedback mv-up">Merci de sélectionner uen classe!</div>-->
+                            </div>
+                                           
+                            </div>
+                        </div>
+                    </div>
+                        <div class="form-check"><br>
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" style="color:black;" required>                        
+                            <label class="form-check-label">Je confirme toutes les données saisies</label>
+                           <!-- <div class="invalid-feedback">Merci de confirmer que toutes les données saisises sont correctes!</div>-->
+                        </div>        
+                        <br>         
+                        <div style="display:flex;" class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Valider</button>
+                        </div>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

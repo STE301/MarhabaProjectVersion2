@@ -1,0 +1,190 @@
+.vol {
+    color: aliceblue#1d1919;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 400;
+    background-color: #f8f9fa;
+    width: 65%;
+    margin-left: 10%;
+    display: block;
+    margin-left: 10cm;
+}
+
+.btn-primary {
+    background-color: #ec7104;
+    outline: none;
+    border: 7px;
+    box-shadow: none;
+    width: 3cm;
+    margin-top: 0.2cm;
+    height: 0.7cm;
+
+}
+
+a {
+    text-decoration: none;
+}
+*,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#parts {
+    display: flex;
+
+}
+
+#part1 {
+    margin-left: 1.2cm;
+}
+
+#part2 {
+
+    margin-left: 1.5cm;
+
+}
+
+#last {
+    display: flex;
+}
+
+#part1 .col-md-12 {
+    width: 9cm;
+}
+
+#part2 .col-md-12 {
+    width: 9cm;
+
+}
+
+.form-holder {
+    width: 800px;
+    margin-left: 32%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: #1d1919;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.form-content .form-items {
+
+    border: 4px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+
+}
+
+.form-content label,
+.was-validated .form-check-input:invalid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
+    color: #fff;
+}
+
+.form-content input[type=text],
+.form-content input[type=password],
+.form-content input[type=datetime-local],
+.form-content input[type=date],
+.form-content input[type=email],
+.form-content select {
+    width: 75%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+
+.btn-primary {
+    background-color: orange;
+    outline: none;
+    border: 10px;
+    box-shadow: none;
+    margin-left: -16cm;
+    font-size: large;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.form-content textarea {
+    position: static !important;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 100px;
+    -webkit-transition: none;
+    transition: none;
+
+}
+
+.form-content textarea:hover,
+.form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}

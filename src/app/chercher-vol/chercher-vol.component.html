@@ -1,0 +1,38 @@
+<app-aside-fix></app-aside-fix>
+
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content"  style="margin-top:-1.5cm;">
+                <div class="form-items">
+             
+                     <h3 style="margin-top:0cm;"><span style="color:orange; ">&#9992;</span> Chercher un vol</h3>
+                    <form class="requires-validation" action=" " method="POST">
+                        <div class="col-md-12">
+                            <select class="form-select mt-3" name="depart" id="depart" required>
+                                <option selected disabled >Aeroport de départ</option>            
+                                <option></option>     
+                            </select>                           
+                        </div>                          
+                        <div class="col-md-12">
+                            <select class="form-select mt-3" required name="arrivee">
+                                <option selected disabled value="">Aeroport d'arrivée</option>                                    
+                                <option></option>                                 
+                            </select>                     
+                        </div>
+                        <div class="col-md-12">
+                            <br>
+                             <label>Date et heure de départ</label>
+                            <input  class="form-control" type="datetime-local" name="date" style="color:black;" placeholder="Date de départ" required>
+                        </div>
+                        <br>
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Chercher</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

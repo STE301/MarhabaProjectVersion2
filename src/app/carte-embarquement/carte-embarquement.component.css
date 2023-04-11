@@ -1,0 +1,40 @@
+.logo {
+    float: right;
+    display: block;
+    margin-top: 15px;
+}
+
+.titre {
+    display: inline;
+}
+
+.header {
+    display: block;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 850px;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 5px;
+    position: absolute;
+}
+
+.img-fluid {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.info {
+    float: left;
+    display: inline;
+}
+
+.qr {
+    width: 18%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}

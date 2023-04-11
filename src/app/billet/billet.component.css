@@ -1,0 +1,72 @@
+.logo {
+    float: right;
+    display: block;
+    margin-top: 15px;
+}
+
+.titre {
+    display: inline;
+}
+
+.header {
+    display: block;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 1020px;
+    border: 1px solid black;
+    padding-left: 12px;
+    padding-right: 5px;
+    position: absolute;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.img-fluid {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.qr {
+    width: 18%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.info {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+}
+
+.tab1 {
+    background-color: rgb(167, 165, 165);
+    width: 1020px;
+    font-size: larger;
+}
+
+.tab2 {
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.tab21 {
+    /*width: 500px;*/
+    padding-right: 20px;
+}
+
+.tab22 {
+    width: 450px;
+    padding-left: 20px;
+}
+
+.foot {
+    margin-top: 150px;
+}
+
+.p1 {
+    text-align: center;
+}

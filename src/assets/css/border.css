@@ -1,0 +1,19 @@
+body{
+      color:black !important;
+      
+
+}
+
+tr, td {
+      border-style:double !important;
+      
+}
+table{
+      border-style:double !important;
+}
+
+th,td{
+      text-align: center !important;
+      width:5cm;
+
+}

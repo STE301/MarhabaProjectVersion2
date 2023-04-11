@@ -1,0 +1,10 @@
+.menuAside {
+    width: 100%;
+    display: inline;
+    float: left;
+}
+
+.menuTop {
+    width: 150%;
+    display: inline;
+}

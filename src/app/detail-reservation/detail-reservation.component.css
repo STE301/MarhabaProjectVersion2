@@ -1,0 +1,68 @@
+.info_client{
+    border: 1px solid white;
+    width: 55%;
+    margin-left: 30%;
+    padding: 20px;
+    font-size: larger;
+    background-color: rgb(231, 231, 228);
+}
+
+.btn-primary {
+    background-color: #ec7104;
+    outline: none;
+    border: 0px;
+    border-radius: 6%;
+    box-shadow: none;
+    width: 3cm;
+    height: 1cm;
+    border-style: groove;
+    font-size: large;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.btn2{
+    margin-left: 30px;
+}
+
+.form-button{
+    text-align: right;
+}
+
+.info_reservation,
+.passager1 {
+    border: 1px solid white;
+    width: 55%;
+    margin-left: 30%;
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(231, 231, 228);
+}
+
+.btn-secondary {
+    background-color: #f7c193;
+    outline:#495056;
+    border: 0px;
+    border-radius: 6%;
+    box-shadow: none;
+    width: 3cm;
+    height: 0.8cm;
+    border-style: groove;
+    font-size: large;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}

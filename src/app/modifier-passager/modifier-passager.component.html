@@ -1,0 +1,59 @@
+<app-aside-fix></app-aside-fix>
+
+<div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h2 style="color:orange; margin-left:-20px; margin-top:0px;"><i class="fa fa-plane" style="font-size:48px;color:orange; "></i> Référence de éservation : </h2>          
+                        <form class="requires-validation" method="POST" action="">             
+                                <p style="color:greenyellow; font-weight:500; white-space:nowrap;">Informations Passager i :</p>
+                                <div class="col-md-12">
+                                    <p>Numéro du passeport : </p>
+                                    <input class="form-control" type="text" name="pass"  style="color:black;" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Nom : </p>
+                                    <input class="form-control" type="text" name="lastName"  style="color:black;" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Prénom : </p>
+                                    <input class="form-control" type="text" name="firstName" style="color:black;" required>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <p>Numéro de siège : </p>
+                                    <input class="form-control" type="text" name="nationalite"  style="color:black;" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Prix : </p>
+                                    <input class="form-control" type="text" name="telephone" placeholder="Ex: +212 xx xx xx" style="color:black;" required>
+                                </div>     
+                                    <div class="col-md-12 mt-3">
+                                        <p>Classe: </p>
+                                        <input type="radio" class="btn-check" name="classe" id="Economique" autocomplete="off" style="color:black;" value="Economique" required>
+                                        <label class="btn btn-sm btn-outline-secondary" >Economique</label>
+                                        <input type="radio" class="btn-check" name="classe" id="Premium" autocomplete="off" style="color:black;" value="Premium" required>
+                                        <label class="btn btn-sm btn-outline-secondary" >Premium</label>
+                                        <input type="radio" class="btn-check" name="classe" id="Business" autocomplete="off" style="color:black;"  value="Business" required>
+                                        <label class="btn btn-sm btn-outline-secondary" >Business</label>
+                                    <!--<div class="valid-feedback mv-up">Vous avez sélectionné une classe!</div>
+                                    <div class="invalid-feedback mv-up">Merci de sélectionner uen classe!</div>-->
+                                </div>             
+                            <div class="form-check"><br>
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" style="color:black;" required>                        
+                                <label class="form-check-label">Je confirme toutes les données saisies</label>
+                                <!-- <div class="invalid-feedback">Merci de confirmer que toutes les données saisises sont correctes!</div>-->
+                            </div>        
+                        <br>         
+                        <div style="display:flex;" class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Valider</button>
+                        </div>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
