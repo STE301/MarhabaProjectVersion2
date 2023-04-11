@@ -31,29 +31,7 @@
                                         <p style="color:greenyellow; ">Prénom:</p> 
                                         <input class="form-control" type="text" name="prenomClient" value="" style="color:black;" required>
                                     </div>     
-                                    <div class="col-md-12">
-                                        <p style="color:greenyellow; ">Nationnalité:</p> 
-                                        <select class="selectpicker countrypicker"  style="color: black; width:7.8cm;">
-                                            <option>AUS</option>
-                                            <option>BE</option>
-                                            <option>BG</option>
-                                            <option>HR</option>
-                                            <option>CY</option>
-                                            <option>CZ</option>
-                                            <option>DK</option>
-                                            <option>EE</option>
-                                            <option>FR</option>
-                                            <option>GR</option>
-                                            <option>HU</option>
-                                            <option>IT</option>
-                                            <option>LV</option>
-                                            <option>MA</option>
-                                            <option>MEX</option>
-                                            <option>POR</option>
-                                            <option>SP</option>
-                                            <option>US</option>
-                                        </select>
-                                    </div>                    
+                                          
                                     <div class="col-md-12">
                                         <p style="color:greenyellow; ">Email:</p> 
                                         <input class="form-control" type="text" name="emailClient" placeholder="Ex: xxxx@xx.net" value="" style="color:black;" required>
@@ -80,16 +58,35 @@
                                 <div class="col-md-12">
                                     <p>Prénom</p>
                                     <input class="form-control" type="text" name="firstName" style="color:black;" required>
-                                </div>  
+                                </div>
+                                <!--<div class="col-md-12">
+                                    <p>Date de naissance</p>
+                                    <input class="form-control" type="date" name="bithday" style="color:black;" required>
+                                </div>-->
                                 <div class="col-md-12">
-                                    <p>Adresse Email</p>
-                                    <input class="form-control" type="text" name="email" placeholder="Ex: xxxx@xx.net" style="color:black;" required>
-                                </div> 
-                                <div class="col-md-12">
-                                    <p>Numéro de téléphone</p>
-                                    <input class="form-control" type="text" name="telephone" placeholder="Ex: +212 xx xx xx" style="color:black;" required>
-                                </div>   
-                                <div class="col-md-12 mt-3">
+                                        <p>Nationnalité:</p> 
+                                        <select class="selectpicker countrypicker"  style="color: black; width:7.8cm;">
+                                            <option>AUS</option>
+                                            <option>BE</option>
+                                            <option>BG</option>
+                                            <option>HR</option>
+                                            <option>CY</option>
+                                            <option>CZ</option>
+                                            <option>DK</option>
+                                            <option>EE</option>
+                                            <option>FR</option>
+                                            <option>GR</option>
+                                            <option>HU</option>
+                                            <option>IT</option>
+                                            <option>LV</option>
+                                            <option>MA</option>
+                                            <option>MEX</option>
+                                            <option>POR</option>
+                                            <option>SP</option>
+                                            <option>US</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12 mt-3">
                                     <p style="color:white; ">Classe: </p>
                                     <input type="radio" class="btn-check" name="classe" id="Economique" autocomplete="off" style="color:black;" value="Economique" required>
                                     <label class="btn btn-sm btn-outline-secondary" >Economique</label>
@@ -99,8 +96,16 @@
                                     <label class="btn btn-sm btn-outline-secondary" >Business</label>
                                 <!--<div class="valid-feedback mv-up">Vous avez sélectionné une classe!</div>
                                 <div class="invalid-feedback mv-up">Merci de sélectionner uen classe!</div>-->
-                            </div>
-                                           
+                            </div>                
+                                 
+                                <div class="col-md-12">
+                                    <p>Numéro de Siège</p>
+                                    <input class="form-control" type="text" name="num_siege" style="color:black;" required>
+                                </div>    
+                                <div class="col-md-12">
+                                    <p>Prix</p>
+                                    <input class="form-control" type="text" name="prix" style="color:black;" required>
+                                </div>       
                             </div>
                         </div>
                     </div>

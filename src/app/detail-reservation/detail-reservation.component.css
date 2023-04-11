@@ -66,3 +66,10 @@
     border: none !important;
     box-shadow: none;
 }
+
+.total{
+    float: right;
+    font-size: larger;
+    color: #0cc73a;
+    font-weight: bold;
+}

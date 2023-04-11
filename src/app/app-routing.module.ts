@@ -7,6 +7,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { RechercherCarteEmbarquementComponent } from './rechercher-carte-embarquement/rechercher-carte-embarquement.component';
 import { SuiteReservationPassagerComponent } from './suite-reservation-passager/suite-reservation-passager.component';
 import { DetailReservationComponent } from './detail-reservation/detail-reservation.component';
+import { ModifierPassagerComponent } from './modifier-passager/modifier-passager.component';
 
 const routes: Routes = [
   /*{ path: '', component: PageAccueilComponent },*/
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'carte', component: RechercherCarteEmbarquementComponent },
   { path: 'passager', component: SuiteReservationPassagerComponent },
   { path: 'detailReservation', component: DetailReservationComponent },
+  { path: 'modifier', component: ModifierPassagerComponent },
 ];
 
 @NgModule({

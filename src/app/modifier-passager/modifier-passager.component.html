@@ -21,34 +21,64 @@
                                     <input class="form-control" type="text" name="firstName" style="color:black;" required>
                                 </div>
                                 
+                                <!--<div class="col-md-12">
+                                    <p>Date de naissance</p>
+                                    <input class="form-control" type="date" name="bithday" style="color:black;" required>
+                                </div>-->
                                 <div class="col-md-12">
-                                    <p>Numéro de siège : </p>
-                                    <input class="form-control" type="text" name="nationalite"  style="color:black;" required>
-                                </div>
-                                <div class="col-md-12">
-                                    <p>Prix : </p>
-                                    <input class="form-control" type="text" name="telephone" placeholder="Ex: +212 xx xx xx" style="color:black;" required>
-                                </div>     
+                                        <p>Nationnalité:</p> 
+                                        <select class="selectpicker countrypicker"  style="color: black; width:7.8cm;">
+                                            <option>AUS</option>
+                                            <option>BE</option>
+                                            <option>BG</option>
+                                            <option>HR</option>
+                                            <option>CY</option>
+                                            <option>CZ</option>
+                                            <option>DK</option>
+                                            <option>EE</option>
+                                            <option>FR</option>
+                                            <option>GR</option>
+                                            <option>HU</option>
+                                            <option>IT</option>
+                                            <option>LV</option>
+                                            <option>MA</option>
+                                            <option>MEX</option>
+                                            <option>POR</option>
+                                            <option>SP</option>
+                                            <option>US</option>
+                                        </select>
+                                    </div>
                                     <div class="col-md-12 mt-3">
-                                        <p>Classe: </p>
-                                        <input type="radio" class="btn-check" name="classe" id="Economique" autocomplete="off" style="color:black;" value="Economique" required>
-                                        <label class="btn btn-sm btn-outline-secondary" >Economique</label>
-                                        <input type="radio" class="btn-check" name="classe" id="Premium" autocomplete="off" style="color:black;" value="Premium" required>
-                                        <label class="btn btn-sm btn-outline-secondary" >Premium</label>
-                                        <input type="radio" class="btn-check" name="classe" id="Business" autocomplete="off" style="color:black;"  value="Business" required>
-                                        <label class="btn btn-sm btn-outline-secondary" >Business</label>
+                                    <p style="color:white; ">Classe: </p>
+                                    <input type="radio" class="btn-check" name="classe" id="Economique" autocomplete="off" style="color:black;" value="Economique" required>
+                                    <label class="btn btn-sm btn-outline-secondary" >Economique</label>
+                                    <input type="radio" class="btn-check" name="classe" id="Premium" autocomplete="off" style="color:black;" value="Premium" required>
+                                    <label class="btn btn-sm btn-outline-secondary" >Premium</label>
+                                    <input type="radio" class="btn-check" name="classe" id="Business" autocomplete="off" style="color:black;"  value="Business" required>
+                                    <label class="btn btn-sm btn-outline-secondary" >Business</label>
+                                <!--<div class="valid-feedback mv-up">Vous avez sélectionné une classe!</div>
+                                <div class="invalid-feedback mv-up">Merci de sélectionner uen classe!</div>-->
+                            </div>                
+                                 
+                                <div class="col-md-12">
+                                    <p>Numéro de Siège</p>
+                                    <input class="form-control" type="text" name="num_siege" style="color:black;" required>
+                                </div>    
+                                <div class="col-md-12">
+                                    <p>Prix</p>
+                                    <input class="form-control" type="text" name="prix" style="color:black;" required>
+                                </div>       
                                     <!--<div class="valid-feedback mv-up">Vous avez sélectionné une classe!</div>
-                                    <div class="invalid-feedback mv-up">Merci de sélectionner uen classe!</div>-->
-                                </div>             
-                            <div class="form-check"><br>
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" style="color:black;" required>                        
-                                <label class="form-check-label">Je confirme toutes les données saisies</label>
+                                    <div class="invalid-feedback mv-up">Merci de sélectionner uen classe!</div>-->             
+                                <div class="form-check"><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" style="color:black;" required>                        
+                                    <label class="form-check-label">Je confirme toutes les données saisies</label>
                                 <!-- <div class="invalid-feedback">Merci de confirmer que toutes les données saisises sont correctes!</div>-->
-                            </div>        
-                        <br>         
-                        <div style="display:flex;" class="form-button mt-3">
-                            <button id="submit" type="submit" class="btn btn-primary">Valider</button>
-                        </div>                        
+                                </div>        
+                                <br>         
+                            <div style="display:flex;" class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Valider</button>
+                            </div>                        
                     </form>
                 </div>
             </div>
