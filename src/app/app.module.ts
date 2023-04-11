@@ -17,7 +17,6 @@ import { HeaderComponent } from './header/header.component';
 import { AsideFixComponent } from './aside-fix/aside-fix.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { BilletComponent } from './billet/billet.component';
-import { RechercherCarteEmbarquementComponent } from './rechercher-carte-embarquement/rechercher-carte-embarquement.component';
 import { SuiteReservationPassagerComponent } from './suite-reservation-passager/suite-reservation-passager.component';
 import { DetailReservationComponent } from './detail-reservation/detail-reservation.component';
 import { ModifierPassagerComponent } from './modifier-passager/modifier-passager.component';
@@ -41,7 +40,6 @@ import { CarteEmbarquementComponent } from './carte-embarquement/carte-embarquem
      AsideFixComponent,
      AccueilComponent,
      BilletComponent,
-     RechercherCarteEmbarquementComponent,
      SuiteReservationPassagerComponent,
      DetailReservationComponent,
      ModifierPassagerComponent,
